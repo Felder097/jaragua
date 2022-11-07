@@ -1,0 +1,303 @@
+@font-face {
+    font-family: ptsans;
+    src: url(PTSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: lustria;
+    src: url(Lustria-Regular.ttf);
+}
+
+#cab {
+    background-color: #95B080;
+    position: fixed;
+    width: 100%;
+    height: 20%;
+    border-radius: 0px 0px 50px 50px;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+#menu {
+    position: relative;
+    left: 80%;
+    top: 52px;
+    font-family: ptsans;
+    display: inline-block;
+    text-decoration: none;
+}
+#menu:hover {
+    text-decoration: underline;
+}
+
+#linkmenu {
+    position: relative;
+    top: 900px;
+    left: 630px;
+}
+
+header {
+    z-index: 10;
+    box-shadow: 10px 10px 20px black;
+}
+
+#conta {
+    font-family: ptsans;
+    position: absolute;
+    top: 45px;
+    left: 40%;
+    display:inline-block;
+    border: solid 1px white;
+    border-radius: 95px;
+    width: 290px;
+    height: 50px;
+    background-color: rgba(255, 255, 0, 0);
+    color: white;
+    font-size: 30px;
+}
+
+#conta:hover{
+font-weight: bold;
+border: solid 3px white;
+}
+.cabt {
+    color: white;
+    font-size: 30px;
+    font-weight: 20;
+    letter-spacing: 3px;   
+}
+#jaraguacab {
+    position: absolute;
+    color: white;
+    letter-spacing: 3px;
+    top: 48px;
+    left: 210px;
+    display:inline-block;
+    font-family: ptsans;
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: none;
+}
+#jaraguacab:hover{
+    text-decoration: underline;
+}
+
+.tramenu {
+    width: 50px;
+    height: 5px;
+    background-color: white;
+    position: relative;
+    top: 14px;
+    left: 1150px;
+    border-radius: 30px;
+
+}
+
+.tramenu ~ .tramenu {
+    margin-top: 13px;
+}
+
+#icone1 {
+    position: absolute;
+    filter: invert(100%);
+    width: 100px;
+    top: 15px;
+    left: 100px;
+}
+
+#imgpico {
+    z-index: -10;
+    width: 100%;
+    position: absolute;
+}
+
+#titulomenu {
+    position: absolute;
+    position: absolute;
+    color: white;
+    letter-spacing: 3px;
+    top: 400px;
+    left: 450px;
+    display:inline-block;
+    font-family: ptsans;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+html {
+    height: 2400px;
+    width: 680px;
+}
+
+#destaques {
+    position: relative;
+    top: 1050px;
+    left: 630px;
+    font-family: ptsans;
+    font-size: 28px;
+    font-weight: bold;
+
+}
+#destaquestexto {
+    position: relative;
+    top: 1070px;
+    left: 400px;
+    font-family: ptsans;
+    font-size: 18px;
+
+}
+
+#botaop2 {
+    position: relative;
+    top: 1130px;
+    left: 550px;
+    font-family: ptsans;
+    font-size: 18px;
+    color: white;
+    background-color: black;
+    width: 280px;
+    height: 40px;
+}
+#botaop2:hover{
+    background-color: grey;
+    color: black;
+}
+
+#imgpredios {
+    position: absolute;
+    top: 1350px;
+    width: 100%;
+}
+
+body {
+    background-color: #E4EBF1;
+}
+
+footer {
+ position: absolute;
+ background-color: #59694d;
+ top: 2060px;
+ width: 100%;
+ height: 340px;
+ z-index: -10;
+}
+
+.tr {
+    color: white;
+    font-family: ptsans;
+    font-size: 34px;
+    font-weight: bold;
+    display: inline-block;
+}
+#rs {
+    position: relative;
+    left: 60px;
+    top: 45px;
+}
+#pre {
+    position: relative;
+    top: 45px;
+    left: 420px;
+}
+
+#aju {
+    position: relative;
+    top: 45px;
+    left: 795px;
+}
+
+li > img {
+    width: 50px;
+    position: relative;
+    left: 60px;
+    top: 55px;
+}
+li {
+    list-style-type: none;
+}
+
+.lim{
+    margin-top: 30px;
+}
+
+.lit {
+    color: white;
+    font-family: ptsans;
+    font-size: 22px;
+    font-weight: bold;
+    position: absolute;
+}
+.lit ~ .lit {
+    margin-top: 30px;
+}
+
+#ja {
+    top: 110px;
+    left: 130px;
+}
+#pj {
+    top: 163px;
+    left: 130px;
+}
+#pj2 {
+    top: 247px;
+    left: 130px;
+}
+
+#roja {
+    width: 235px;
+    height: 153px;
+    border: solid 5px #95B080;
+    border-radius: 50px;
+    position: absolute;
+    top: 120px;
+    left: 430px;
+}
+
+#rojai {
+    position: relative;
+    top: 20px;
+    left: 30px;
+    width: 170px;
+}
+
+#rogov {
+    width: 235px;
+    height: 153px;
+    border: solid 5px #95B080;
+    border-radius: 50px;
+    position: absolute;
+    top: 120px;
+    left: 700px;
+}
+
+#rogovi {
+    position: relative;
+    top: 20px;
+    left: 30px;
+    width: 170px;
+}
+
+#sac {
+    font-family: lustria;
+    font-size: 34px;
+    color: white;
+    position: absolute;
+    top: 150px;
+    right: 140px;
+}
+
+#sact {
+    font-family: ptsans;
+    font-size: 34px;
+    color: white;
+    position: absolute;
+    top: 200px;
+    right: 70px;
+
+}
+
+
+
